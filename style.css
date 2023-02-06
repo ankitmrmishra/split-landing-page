@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.leftpart{
+    position: relative;
+    background-image: url(images/fractal-hassan-XoNj0ulsn1Y-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: blue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+}
+.upprprtleft{
+    position: inherit;
+        width: 100%;
+height: 100vh;
+    background-color: rgb(168, 245, 242);
+    
+    opacity: 0.6;
+    overflow: hidden;
+}
+h3{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 12rem;
+    position: absolute;
+    color: blueviolet;
+}
+button{
+    position: absolute;
+    z-index: 999;
+    padding: 2rem;
+    background: transparent;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blueviolet;
+}
+.rightpart{
+    background-image: url(images/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg);
+    background-size: cover;
+        background-repeat: no-repeat;
+    background-color: violet;
+    width: 100%;
+   height: 100vh;
+display: flex;
+flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.upprprtright {
+    position: inherit;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(190, 237, 160);
+
+    opacity: 0.6;
+    overflow-x: hidden;
+}
+
+.show{
+    width:95%;
+   
+    transition: width 1s ;
+}
+.hide{
+    width: 50%;
+   
+    transition: width 1s;
+}
